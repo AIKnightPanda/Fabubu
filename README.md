@@ -26,6 +26,7 @@
 
 * **🛡️ 安全可靠**：所有操作均通过模拟浏览器进行，操作过程完全可视化，安全透明，最大程度降低封号风险。
 * **👥 多账号管理**：支持多平台多账号登录，账号环境相互隔离，互不干扰，轻松管理您的媒体矩阵。
+* **🔑 Cookie 智能续期**：全平台（抖音、B站、小红书、快手、视频号）Cookie 失效自动检测与重新登录，无需手动干预。
 * **⏰ 定时发布 & 快捷跳转**：支持设置定时发布任务，并可一键快捷打开各平台网页端，管理效率翻倍。
 * **⚡ 极致轻量 & 简单**：安装包体积优化至 60MB 以下，界面简洁直观，无需配置环境，开箱即用。
 * **💻 全平台兼容**：完美支持 **macOS** (Intel & Apple Silicon) 和 **Windows** (x64) 系统，随时随地开启创作。
@@ -45,9 +46,9 @@
 
 | 平台 | 最新版本文件名 | 说明 |
 | :--- | :--- | :--- |
-| **Windows** | [Fabubu_0.1.5_x64-setup.exe](release/Fabubu_0.1.5_x64-setup.exe) | 适用于 Windows 10/11 (x64) |
-| **macOS (Intel)** | [Fabubu_0.1.5_x64.dmg](release/Fabubu_0.1.5_x64.dmg) | 适用于 Intel 芯片的 Mac |
-| **macOS (M1/M2/M3)** | [Fabubu_0.1.5_aarch64.dmg](release/Fabubu_0.1.5_aarch64.dmg) | 适用于 Apple Silicon 芯片的 Mac |
+| **Windows** | [Fabubu_0.1.6_x64-setup.exe](release/Fabubu_0.1.6_x64-setup.exe) | 适用于 Windows 10/11 (x64) |
+| **macOS (Intel)** | [Fabubu_0.1.6_x64.dmg](release/Fabubu_0.1.6_x64.dmg) | 适用于 Intel 芯片的 Mac |
+| **macOS (M1/M2/M3)** | [Fabubu_0.1.6_aarch64.dmg](release/Fabubu_0.1.6_aarch64.dmg) | 适用于 Apple Silicon 芯片的 Mac |
 
 ### 🔧 安装故障排除 (Troubleshooting)
 
