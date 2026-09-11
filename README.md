@@ -41,7 +41,7 @@
 
 ## 🚀 下载与安装
 
-前往 [Releases 页面](https://github.com/AIKnightPanda/Fabubu/releases/latest) 下载最新版本，或直接点击下方链接下载 v1.0.0，详细教程见 [安装说明](<release/安装说明（下载前必看！！！）.txt>)：
+前往 [Releases 页面](https://github.com/AIKnightPanda/Fabubu/releases/latest) 下载最新版本，或直接点击下方链接下载 v1.0.0：
 
 | 平台 | 安装包 | 说明 |
 | :--- | :--- | :--- |
