@@ -7,3 +7,8 @@
 node_modules/
 __pycache__/
 *.pyc
+
+# 安装包走 GitHub Releases 分发，不进 git 仓库
+release/*.dmg
+release/*.exe
+release/*.msi

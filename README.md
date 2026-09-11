@@ -26,7 +26,6 @@
 
 * **🛡️ 安全可靠**：所有操作均通过模拟浏览器进行，操作过程完全可视化，安全透明，最大程度降低封号风险。
 * **👥 多账号管理**：支持多平台多账号登录，账号环境相互隔离，互不干扰，轻松管理您的媒体矩阵。
-* **🔑 Cookie 智能续期**：全平台（抖音、B站、小红书、快手、视频号）Cookie 失效自动检测与重新登录，无需手动干预。
 * **⏰ 定时发布 & 快捷跳转**：支持设置定时发布任务，并可一键快捷打开各平台网页端，管理效率翻倍。
 * **⚡ 极致轻量 & 简单**：安装包体积优化至 60MB 以下，界面简洁直观，无需配置环境，开箱即用。
 * **💻 全平台兼容**：完美支持 **macOS** (Intel & Apple Silicon) 和 **Windows** (x64) 系统，随时随地开启创作。
@@ -42,25 +41,19 @@
 
 ## 🚀 下载与安装
 
-请查看 [安装说明](release/安装说明.md) 获取详细教程，也可以直接在下方下载安装包：
+前往 [Releases 页面](https://github.com/AIKnightPanda/Fabubu/releases/latest) 下载最新版本，或直接点击下方链接下载 v1.0.0，详细教程见 [安装说明](release/安装说明.md)：
 
-| 平台 | 最新版本文件名 | 说明 |
+| 平台 | 安装包 | 说明 |
 | :--- | :--- | :--- |
-| **Windows** | [Fabubu_1.0.0_x64-setup.exe](release/Fabubu_1.0.0_x64-setup.exe) | 适用于 Windows 10/11 (x64) |
-| **macOS (Intel)** | [Fabubu_1.0.0_x64.dmg](release/Fabubu_1.0.0_x64.dmg) | 适用于 Intel 芯片的 Mac |
-| **macOS (M1/M2/M3)** | [Fabubu_1.0.0_aarch64.dmg](release/Fabubu_1.0.0_aarch64.dmg) | 适用于 Apple Silicon 芯片的 Mac |
+| **Windows** | [Fabubu_1.0.0_x64-setup.exe](https://github.com/AIKnightPanda/Fabubu/releases/download/v1.0.0/Fabubu_1.0.0_x64-setup.exe) | 适用于 Windows 10/11 (x64) |
+| **macOS (Intel)** | [Fabubu_1.0.0_x64.dmg](https://github.com/AIKnightPanda/Fabubu/releases/download/v1.0.0/Fabubu_1.0.0_x64.dmg) | 适用于 Intel 芯片的 Mac |
+| **macOS (M1/M2/M3)** | [Fabubu_1.0.0_aarch64.dmg](https://github.com/AIKnightPanda/Fabubu/releases/download/v1.0.0/Fabubu_1.0.0_aarch64.dmg) | 适用于 Apple Silicon 芯片的 Mac |
 
 ### 🔧 安装故障排除 (Troubleshooting)
 
-#### 🍎 macOS 用户必读
+#### 🍎 macOS 用户
 
-自 v1.0.0 起，安装包已通过 Apple 公证 (Notarization)，**双击即可正常安装打开，无需任何额外操作**。
-
-> 若你使用的是 v0.1.6 及更早版本，可能会遇到"'Fabubu' 已损坏，无法打开"的提示。那是 macOS 的 **Gatekeeper 安全机制**拦截了未签名应用，并非文件真的损坏，可以用下面的终端命令解决，或直接升级到 v1.0.0 及以上版本。
->
-> ```bash
-> sudo xattr -r -d com.apple.quarantine /Applications/Fabubu.app
-> ```
+安装包已通过 Apple 公证 (Notarization)，双击 `.dmg` 打开，把 **Fabubu** 拖进「应用程序」文件夹即可，无需任何额外操作。
 
 #### 🪟 Windows 用户安装
 
