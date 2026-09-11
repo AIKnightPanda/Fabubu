@@ -46,29 +46,21 @@
 
 | 平台 | 最新版本文件名 | 说明 |
 | :--- | :--- | :--- |
-| **Windows** | [Fabubu_0.1.6_x64-setup.exe](release/Fabubu_0.1.6_x64-setup.exe) | 适用于 Windows 10/11 (x64) |
-| **macOS (Intel)** | [Fabubu_0.1.6_x64.dmg](release/Fabubu_0.1.6_x64.dmg) | 适用于 Intel 芯片的 Mac |
-| **macOS (M1/M2/M3)** | [Fabubu_0.1.6_aarch64.dmg](release/Fabubu_0.1.6_aarch64.dmg) | 适用于 Apple Silicon 芯片的 Mac |
+| **Windows** | [Fabubu_1.0.0_x64-setup.exe](release/Fabubu_1.0.0_x64-setup.exe) | 适用于 Windows 10/11 (x64) |
+| **macOS (Intel)** | [Fabubu_1.0.0_x64.dmg](release/Fabubu_1.0.0_x64.dmg) | 适用于 Intel 芯片的 Mac |
+| **macOS (M1/M2/M3)** | [Fabubu_1.0.0_aarch64.dmg](release/Fabubu_1.0.0_aarch64.dmg) | 适用于 Apple Silicon 芯片的 Mac |
 
 ### 🔧 安装故障排除 (Troubleshooting)
 
 #### 🍎 macOS 用户必读
 
-**问题：提示“'Fabubu' 已损坏，无法打开”**
+自 v1.0.0 起，安装包已通过 Apple 公证 (Notarization)，**双击即可正常安装打开，无需任何额外操作**。
 
-这是 macOS 的 **Gatekeeper 安全机制**拦截了未签名的个人开发者应用，并非文件真的损坏。
-
-**✅ 解决方法 (终端命令)：**
-
-1. 打开 **终端 (Terminal)** (按 `Cmd + Space` 搜索 "Terminal")。
-2. 复制以下命令并粘贴，然后按 **回车**：
-
-   ```bash
-   sudo xattr -r -d com.apple.quarantine /Applications/Fabubu.app
-   ```
-
-3. 输入开机密码（输入时屏幕不显示字符），按回车确认。
-4. 重新打开 App 即可。
+> 若你使用的是 v0.1.6 及更早版本，可能会遇到"'Fabubu' 已损坏，无法打开"的提示。那是 macOS 的 **Gatekeeper 安全机制**拦截了未签名应用，并非文件真的损坏，可以用下面的终端命令解决，或直接升级到 v1.0.0 及以上版本。
+>
+> ```bash
+> sudo xattr -r -d com.apple.quarantine /Applications/Fabubu.app
+> ```
 
 #### 🪟 Windows 用户安装
 
@@ -77,6 +69,14 @@
    * 点击 **“更多信息” (More Info)**。
    * 点击 **“仍要运行” (Run anyway)**。
    *(注：这是无数字签名应用的正常现象)*
+
+#### ⚠️ 小红书使用风险提示
+
+使用本工具发布小红书内容时，账号可能会收到类似下面的平台风险预警：
+
+> 您好，您的账号疑似使用三方工具或脚本（如AI）自动浏览、查看或发布内容来运营账号，本次仅警告，多次违规将影响账号功能。平台倡导真实分享，请勿以技术手段模拟真人行为，共同维护真诚友好的社区环境。
+
+目前尚未定位到具体触发条件，暂时无法规避。**如果账号收到此类警告，请不要再继续尝试用 Fabubu 发布小红书内容**，由此产生的账号限流、封禁等损失，本工具不承担责任。
 
 ## 📜 许可证
 
